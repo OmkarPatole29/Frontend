@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #001a66, #0044cc);
+    color: rgb(252, 250, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 10px;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 600px;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* Header */
+.exam-rules h2 {
+    color: #ffffff;
+    background: #294fc2;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    margin: -20px -20px 20px -20px;
+}
+
+/* Rules Box */
+.rules-box {
+    background: #66b3ff;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    text-align: left;
+}
+
+.rules-box ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.rules-box li {
+    margin: 10px 0;
+}
+
+/* Agreement Checkbox */
+.agreement {
+    width: 100%;
+    background-color:  #66b3ff;
+    margin: 15px 0;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: rgb(26, 21, 21);
+}
+
+.agreement input {
+    margin-right: 10px;
+}
+
+/* Proceed Button */
+.proceed-btn {
+    background: #0044cc;
+    color: white;
+    border: 3px solid black;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.proceed-btn:hover {
+    background: #003399;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .rules-box {
+        font-size: 14px;
+    }
+
+    .agreement {
+        font-size: 12px;
+    }
+
+    .proceed-btn {
+        font-size: 14px;
+    }
+}
